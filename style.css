@@ -1,0 +1,59 @@
+*{
+    margin-left: 1em;
+}
+td{
+    background-color:rgb(223, 112, 158);
+    color:#200210;
+}
+.miclaseCss{
+background-color:rgb(54, 233, 14);
+color: white;
+font-style:inherit;
+font-weight:900; /*cambia el tamaño de la funte*/
+text-align: center; 
+width: 200px;
+height: 20px;
+border-radius: 17px; /*redondea lineas*/
+box-shadow: 10px 10px 20px rgb(70, 67, 64); /*sombreado*/
+}
+
+.tabladehorarios{ /*cambia el estilo de la fuente*/
+    font-style: italic;
+    color: darkblue;
+}
+.tabladedias{
+    font-weight: bold;
+    font-size: large;
+    color: darkblue;
+}
+
+#titulos{
+text-align: center;
+text-transform: uppercase;
+font-weight: bold;
+
+}
+.header{
+background-color: violet;
+font-size: 200%;
+text-align: center;
+width: 1200px;
+height: 50px;
+}
+
+.footer{
+    background-color: rgb(52, 16, 151);
+    color: rgb(116, 118, 121);
+    width: 1200px;
+    height: 20px;
+}
+.formulario{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-left:1px solid black;
+    border-right: 1px solid black;
+    width: 200px;
+    border-radius: 1em;
+    padding: 1em;
+}
+
