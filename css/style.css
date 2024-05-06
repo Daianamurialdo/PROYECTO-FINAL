@@ -97,26 +97,33 @@ font-weight: bold;
 }
 .quienessomos{
     display: grid;
-    grid-template-columns: 200px 200px 200px;
+    grid-template-columns: 300px 200px 200px;
+    margin-top: 20px;
+    padding: 30px;
+    gap: 10px;
 }
 .contentquienessomos1{
+    background-color: blueviolet;
     grid-column-start: 1;
     grid-column-end: 2;
-    grid-row-start: 1;
-    grid-row-end: 3;
+    grid-row-start: 2;
+    
 
 }
 .contentquienessomos2{
-    grid-column-start: 20;
-    grid-column-end: 2;
+    background-color: chartreuse;
+    grid-column-start: 2;
+    grid-column-end: 4;
     grid-row-start: 2;
-    grid-row-end: 5;
+    grid-row-end: 3;
    
 }
 .contentquienessomos3{
-    grid-column-start: 20;
-    grid-row-start: 1;
-    grid-row-end: 3;
+    background-color: crimson;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
 
 }
 .containersedes{
