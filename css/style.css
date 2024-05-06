@@ -95,6 +95,30 @@ text-align: center;
 text-transform: uppercase;
 font-weight: bold;
 }
+.quienessomos{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+}
+.contentquienessomos1{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+
+}
+.contentquienessomos2{
+    grid-column-start: 20;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 5;
+   
+}
+.contentquienessomos3{
+    grid-column-start: 20;
+    grid-row-start: 1;
+    grid-row-end: 3;
+
+}
 .containersedes{
     display: flex;
     justify-content: space-evenly;
