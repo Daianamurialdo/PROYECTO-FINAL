@@ -1,4 +1,4 @@
-
+/* tarea 12
 
 function saludo (nombre){
 var nombre = prompt("ingrese su nombre")
@@ -9,14 +9,15 @@ if(nombre === null || nombre === '' || nombre === undefined ){
 else{
 alert("bienvenido" +" "+ nombre)}}
 
-saludo()
+saludo() */
+document.addEventListener("DOMContentLoaded", () => {
 
-/*const $form = document.querySelector('#form')
- $form.addEventListener ('submit', datosenviados)*/
-const form = document.getElementById("form")
-form.addEventListener ('submit', datosenviados)
+var $form = document.getElementById("form");
+
+$form.addEventListener ('submit', datosenviados);
+
 function datosenviados(event){
     event.preventDefault()
-    alert("datos enviados")
-                }
-        
+    alert("datos enviados");
+}
+});

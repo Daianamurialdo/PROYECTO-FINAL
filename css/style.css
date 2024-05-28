@@ -281,6 +281,19 @@ footer{
     display: grid;
     place-items: center;
     }
-    @media screen (min-width: 600px) {
-        .na 
+
+    @media (min-width: 717px) {
+        .header{
+            flex-direction: column;
+        }
+        .header{
+            font-size: 2rem;
+        }
     }
+      @media (min-width:320px){
+        .containersedes{
+            grid-template-columns: 1fr;
+        }
+
+        
+      }
